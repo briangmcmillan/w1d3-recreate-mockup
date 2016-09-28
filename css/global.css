@@ -1,20 +1,98 @@
 * {
-    box-sizing: border-box;
+box-sizing: border-box;
+/*border: 1px solid red;*/
 }
+
+body {
+    font-family: 'Heebo', sans-serif;
+}
+
+img {
+    width: 100%;
+    height: 400px;
+}
+
+.home_row {
+    padding: 10px;
+}
+
+.home_button {
+    width: 10vw;
+    display: inline-block;
+}
+
+.your_logo {
+    color: rgb(159, 159, 159);
+}
+.home {
+    color: rgb(159, 159, 159);
+}
+.pricing {
+    color: black;
+}
+.contact {
+    color: rgb(159, 159, 159);
+}
+
+.header_image {
+    padding: 50px;
+    background: url(../img/assets/background.jpg);
+    text-align: center;
+    color: white;
+    background-size: cover;
+}
+
+.boxes {
+    text-align: center;
+    width: 960px;
+    margin: 0 auto;
+}
+.test {
+    width: 30%;
+    display: inline-block;
+}
+.box_green {
+    /*margin-right: 20px;*/
+    padding: 1px;
+    background-color: rgb(74, 134, 74);
+    color: white;
+}
+.box_blue {
+    /*margin-right: 20px;*/
+    padding: 1px;
+    background-color: rgb(45, 69, 122);
+    color: white;
+}
+.box_black {
+    /*margin-right: 20px;*/
+    padding: 1px;
+    background-color: black;
+    color: white;
+}
+.personal {
+    /*width: 30%;*/
+    /*margin-right: 20px;*/
+    color: black;
+    border: 1px solid rgb(214, 214, 214);
+}
+
+
 footer {
     text-align: center;
 }
+
 .footer_row {
-    width: 960px;
+    width: 100%;
     height: 150px;
     background-color: black;
     position: fixed;
+    bottom: 0px;
 }
 .footer_text {
     color: rgb(138, 138, 138);
     text-align: center;
     padding: 50px;
-    height: 150px
+    height: 50px
 }
 .footer_style {
     color: white;
