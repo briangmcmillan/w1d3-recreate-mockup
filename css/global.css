@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+footer {
+    text-align: center;
+}
+.footer_row {
+    width: 960px;
+    height: 150px;
+    background-color: black;
+    position: fixed;
+}
+.footer_text {
+    color: rgb(138, 138, 138);
+    text-align: center;
+    padding: 50px;
+    height: 150px
+}
+.footer_style {
+    color: white;
+    text-decoration: underline;
+}
